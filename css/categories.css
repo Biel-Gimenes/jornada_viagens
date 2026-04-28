@@ -1,0 +1,92 @@
+.categories-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.categories-cards .card {
+  color: var(--text-primary-color);
+  background-color: var(--background-secondary-color);
+  width: 312px;
+  height: 220px;
+  box-sizing: border-box;
+  padding: 24px 16px;
+  border-radius: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.categories-cards .card h3 {
+  font-size: 28px;
+  margin: 16px 16px 41px 16px;
+  text-align: center;
+}
+.categories-cards .card header span {
+  font-size: 32px;
+  margin-top: 24px;
+  display: inline-block;
+}
+
+.categories-cards {
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+}
+
+.categories-cards .card.san-andreas {
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+}
+
+.categories-cards .card.paraiba {
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+}
+
+.categories-cards .card.manaus {
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+  .categories-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .categories-cards .card {
+    width: 420px;
+    height: 308px;
+  }
+  .categories-cards .card header h3 {
+    font-size: 48px;
+  }
+  .categories-cards .card header span {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .categories-cards.card {
+    width: 588px;
+    height: 308;
+  }
+  .categories-cards .card header h3 {
+    font-size: 48px;
+  }
+  .categories-cards .card header span {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .categories-cards {
+    width: 1250px;
+    margin: 0 auto;
+  }
+}
